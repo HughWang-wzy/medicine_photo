@@ -1,0 +1,2044 @@
+epoch_history:
+  1:
+  - train_loss: 0.48645338229835006
+  2:
+  - train_loss: 0.21453994938305446
+  - test_loss: 0.18290678503967467
+  - test_ious:
+    - name: Background
+      avgiou: 0.9316192389097127
+    - name: Inclusions
+      avgiou: 0.025550020260768
+    - name: Patches
+      avgiou: 0.718720663520753
+    - name: Scratches
+      avgiou: 0.37896904274079285
+    - name: mIoU
+      avgiou: 0.37441324217410465
+  3:
+  - train_loss: 0.15450086710708483
+  4:
+  - train_loss: 0.13326664588281084
+  - test_loss: 0.12206308284685725
+  - test_ious:
+    - name: Background
+      avgiou: 0.9504009372697633
+    - name: Inclusions
+      avgiou: 0.43714304918486896
+    - name: Patches
+      avgiou: 0.7798957108732921
+    - name: Scratches
+      avgiou: 0.6764083671799738
+    - name: mIoU
+      avgiou: 0.6311490424127116
+  5:
+  - train_loss: 0.1167478315266115
+  6:
+  - train_loss: 0.10568575587655814
+  - test_loss: 0.11291095241904259
+  - test_ious:
+    - name: Background
+      avgiou: 0.9529938819938435
+    - name: Inclusions
+      avgiou: 0.44124857219628
+    - name: Patches
+      avgiou: 0.7498690990397452
+    - name: Scratches
+      avgiou: 0.7087980161316925
+    - name: mIoU
+      avgiou: 0.6333052291225726
+  7:
+  - train_loss: 0.10046765101807457
+  8:
+  - train_loss: 0.09633353685161897
+  - test_loss: 0.09690078635300908
+  - test_ious:
+    - name: Background
+      avgiou: 0.9584404014794303
+    - name: Inclusions
+      avgiou: 0.4623821042586716
+    - name: Patches
+      avgiou: 0.8127655792157118
+    - name: Scratches
+      avgiou: 0.7472752694576889
+    - name: mIoU
+      avgiou: 0.6741409843106907
+  9:
+  - train_loss: 0.09249153813081129
+  10:
+  - train_loss: 0.08867733792534896
+  - test_loss: 0.08966787154121059
+  - test_ious:
+    - name: Background
+      avgiou: 0.9612482458923516
+    - name: Inclusions
+      avgiou: 0.5873776088105145
+    - name: Patches
+      avgiou: 0.7986310675154017
+    - name: Scratches
+      avgiou: 0.7446463734821136
+    - name: mIoU
+      avgiou: 0.7102183499360099
+  11:
+  - train_loss: 0.08342781889119319
+  12:
+  - train_loss: 0.08283499355560967
+  - test_loss: 0.08367313049911033
+  - test_ious:
+    - name: Background
+      avgiou: 0.9630579992452355
+    - name: Inclusions
+      avgiou: 0.5990244822696762
+    - name: Patches
+      avgiou: 0.8265186101428089
+    - name: Scratches
+      avgiou: 0.7529917528197544
+    - name: mIoU
+      avgiou: 0.7261782817440797
+  13:
+  - train_loss: 0.07973611388089402
+  14:
+  - train_loss: 0.0780434114858508
+  - test_loss: 0.08616937029929388
+  - test_ious:
+    - name: Background
+      avgiou: 0.9618375559452871
+    - name: Inclusions
+      avgiou: 0.6176810110422124
+    - name: Patches
+      avgiou: 0.8133610141758735
+    - name: Scratches
+      avgiou: 0.7514233701668408
+    - name: mIoU
+      avgiou: 0.7274884651283089
+  15:
+  - train_loss: 0.0771976826446397
+  16:
+  - train_loss: 0.07478514699531454
+  - test_loss: 0.07828687405479806
+  - test_ious:
+    - name: Background
+      avgiou: 0.965073567296624
+    - name: Inclusions
+      avgiou: 0.6429101606603719
+    - name: Patches
+      avgiou: 0.8141672336993845
+    - name: Scratches
+      avgiou: 0.7635001091311601
+    - name: mIoU
+      avgiou: 0.7401925011636389
+  17:
+  - train_loss: 0.07389844820967742
+  18:
+  - train_loss: 0.07292407897434064
+  - test_loss: 0.07314302617063125
+  - test_ious:
+    - name: Background
+      avgiou: 0.9669502637380895
+    - name: Inclusions
+      avgiou: 0.6539949756740081
+    - name: Patches
+      avgiou: 0.8423872088929505
+    - name: Scratches
+      avgiou: 0.7731486734847273
+    - name: mIoU
+      avgiou: 0.7565102860172287
+  19:
+  - train_loss: 0.06927208436120835
+  20:
+  - train_loss: 0.069579906362508
+  - test_loss: 0.07232164658960842
+  - test_ious:
+    - name: Background
+      avgiou: 0.9673625286964836
+    - name: Inclusions
+      avgiou: 0.6502566031652202
+    - name: Patches
+      avgiou: 0.8326123830761538
+    - name: Scratches
+      avgiou: 0.780990745327437
+    - name: mIoU
+      avgiou: 0.754619910522937
+  21:
+  - train_loss: 0.06800273373456939
+  22:
+  - train_loss: 0.06687020949487173
+  - test_loss: 0.0695485402696899
+  - test_ious:
+    - name: Background
+      avgiou: 0.9682528448762397
+    - name: Inclusions
+      avgiou: 0.6645638685614911
+    - name: Patches
+      avgiou: 0.8441033667043878
+    - name: Scratches
+      avgiou: 0.7804932599042678
+    - name: mIoU
+      avgiou: 0.7630534983900489
+  23:
+  - train_loss: 0.06573605031839437
+  24:
+  - train_loss: 0.06816608112837585
+  - test_loss: 0.08470266707951114
+  - test_ious:
+    - name: Background
+      avgiou: 0.9616494163903204
+    - name: Inclusions
+      avgiou: 0.6453509428882477
+    - name: Patches
+      avgiou: 0.759494010495398
+    - name: Scratches
+      avgiou: 0.7717371901377645
+    - name: mIoU
+      avgiou: 0.7255273811738033
+  25:
+  - train_loss: 0.06729594964001859
+  26:
+  - train_loss: 0.06604882229917813
+  - test_loss: 0.06718469996537481
+  - test_ious:
+    - name: Background
+      avgiou: 0.9691409975105949
+    - name: Inclusions
+      avgiou: 0.670165579677144
+    - name: Patches
+      avgiou: 0.8504057456968692
+    - name: Scratches
+      avgiou: 0.7786534804853664
+    - name: mIoU
+      avgiou: 0.7664082686197933
+  27:
+  - train_loss: 0.06376097703884756
+  28:
+  - train_loss: 0.06302063413230437
+  - test_loss: 0.06666141591433968
+  - test_ious:
+    - name: Background
+      avgiou: 0.969338189664708
+    - name: Inclusions
+      avgiou: 0.6536329288632637
+    - name: Patches
+      avgiou: 0.8543710043108881
+    - name: Scratches
+      avgiou: 0.7947922822679665
+    - name: mIoU
+      avgiou: 0.767598738480706
+  29:
+  - train_loss: 0.06368558401507993
+  30:
+  - train_loss: 0.06370934438226478
+  - test_loss: 0.06376685996850331
+  - test_ious:
+    - name: Background
+      avgiou: 0.9704212908722902
+    - name: Inclusions
+      avgiou: 0.7060947305080375
+    - name: Patches
+      avgiou: 0.8538883572225066
+    - name: Scratches
+      avgiou: 0.7953150879254465
+    - name: mIoU
+      avgiou: 0.7850993918853302
+  31:
+  - train_loss: 0.06318250537983008
+  32:
+  - train_loss: 0.060768951462315667
+  - test_loss: 0.065910782673884
+  - test_ious:
+    - name: Background
+      avgiou: 0.9700873909547475
+    - name: Inclusions
+      avgiou: 0.6908645813012613
+    - name: Patches
+      avgiou: 0.8439329242428527
+    - name: Scratches
+      avgiou: 0.7938826391474447
+    - name: mIoU
+      avgiou: 0.7762267148971862
+  33:
+  - train_loss: 0.0605370377057365
+  34:
+  - train_loss: 0.06083900927166854
+  - test_loss: 0.06310666721491587
+  - test_ious:
+    - name: Background
+      avgiou: 0.9709093309780215
+    - name: Inclusions
+      avgiou: 0.7034443202790336
+    - name: Patches
+      avgiou: 0.8545116033201763
+    - name: Scratches
+      avgiou: 0.7953195899258283
+    - name: mIoU
+      avgiou: 0.7844251711750126
+  35:
+  - train_loss: 0.06066579577912178
+  36:
+  - train_loss: 0.059255213277148354
+  - test_loss: 0.062135895377113705
+  - test_ious:
+    - name: Background
+      avgiou: 0.9712886138775447
+    - name: Inclusions
+      avgiou: 0.6966543061509097
+    - name: Patches
+      avgiou: 0.8555403936533754
+    - name: Scratches
+      avgiou: 0.7972912416363183
+    - name: mIoU
+      avgiou: 0.7831619804802011
+  37:
+  - train_loss: 0.06109812469886884
+  38:
+  - train_loss: 0.05961994101692522
+  - test_loss: 0.06177124755368346
+  - test_ious:
+    - name: Background
+      avgiou: 0.9717015117100132
+    - name: Inclusions
+      avgiou: 0.6953371351895337
+    - name: Patches
+      avgiou: 0.8625201772830617
+    - name: Scratches
+      avgiou: 0.7930301023108736
+    - name: mIoU
+      avgiou: 0.7836291382611563
+  39:
+  - train_loss: 0.059252884505050514
+  40:
+  - train_loss: 0.058314645064196424
+  - test_loss: 0.06149766971135423
+  - test_ious:
+    - name: Background
+      avgiou: 0.9716322227599973
+    - name: Inclusions
+      avgiou: 0.7048320979187
+    - name: Patches
+      avgiou: 0.8579578760741127
+    - name: Scratches
+      avgiou: 0.8025686225132208
+    - name: mIoU
+      avgiou: 0.7884528655020112
+  41:
+  - train_loss: 0.057473032535719046
+  42:
+  - train_loss: 0.05879913915746979
+  - test_loss: 0.06194975274127154
+  - test_ious:
+    - name: Background
+      avgiou: 0.9714725677215507
+    - name: Inclusions
+      avgiou: 0.6946530884943211
+    - name: Patches
+      avgiou: 0.8552467963929758
+    - name: Scratches
+      avgiou: 0.7998957714374775
+    - name: mIoU
+      avgiou: 0.7832652187749248
+  43:
+  - train_loss: 0.056676864025316076
+  44:
+  - train_loss: 0.05667609614985331
+  - test_loss: 0.06146127088438897
+  - test_ious:
+    - name: Background
+      avgiou: 0.971414837656874
+    - name: Inclusions
+      avgiou: 0.700251325134966
+    - name: Patches
+      avgiou: 0.8616983501993726
+    - name: Scratches
+      avgiou: 0.8002094934588814
+    - name: mIoU
+      avgiou: 0.78738638959774
+  45:
+  - train_loss: 0.056301615134413764
+  46:
+  - train_loss: 0.05775032691391452
+  - test_loss: 0.06070082687018882
+  - test_ious:
+    - name: Background
+      avgiou: 0.9718691380777605
+    - name: Inclusions
+      avgiou: 0.7156235249104289
+    - name: Patches
+      avgiou: 0.8622563687952619
+    - name: Scratches
+      avgiou: 0.7930004945089918
+    - name: mIoU
+      avgiou: 0.7902934627382275
+  47:
+  - train_loss: 0.05598117663924183
+  48:
+  - train_loss: 0.056117308791726814
+  - test_loss: 0.05903987411764406
+  - test_ious:
+    - name: Background
+      avgiou: 0.9727050630160414
+    - name: Inclusions
+      avgiou: 0.7077141226682636
+    - name: Patches
+      avgiou: 0.8598855428986675
+    - name: Scratches
+      avgiou: 0.8109493733298315
+    - name: mIoU
+      avgiou: 0.7928496796322543
+  49:
+  - train_loss: 0.05674839651744281
+  50:
+  - train_loss: 0.05619161489552685
+  - test_loss: 0.06342679476808934
+  - test_ious:
+    - name: Background
+      avgiou: 0.9708398259108462
+    - name: Inclusions
+      avgiou: 0.7209964092254655
+    - name: Patches
+      avgiou: 0.8431264106665072
+    - name: Scratches
+      avgiou: 0.8054220560521317
+    - name: mIoU
+      avgiou: 0.7898482919813681
+  51:
+  - train_loss: 0.05598585846434748
+  52:
+  - train_loss: 0.05547997461897987
+  - test_loss: 0.05782443991906586
+  - test_ious:
+    - name: Background
+      avgiou: 0.9730058648143726
+    - name: Inclusions
+      avgiou: 0.7249943293165141
+    - name: Patches
+      avgiou: 0.8648929748986963
+    - name: Scratches
+      avgiou: 0.8063074878466757
+    - name: mIoU
+      avgiou: 0.798731597353962
+  53:
+  - train_loss: 0.05456150915207608
+  54:
+  - train_loss: 0.05511646644611443
+  - test_loss: 0.061920352918761114
+  - test_ious:
+    - name: Background
+      avgiou: 0.971266363389324
+    - name: Inclusions
+      avgiou: 0.6849830106138289
+    - name: Patches
+      avgiou: 0.8514374338112372
+    - name: Scratches
+      avgiou: 0.8080557613215034
+    - name: mIoU
+      avgiou: 0.7814920685821898
+  55:
+  - train_loss: 0.055816123328570805
+  56:
+  - train_loss: 0.05445565595956786
+  - test_loss: 0.058467583801774754
+  - test_ious:
+    - name: Background
+      avgiou: 0.9725744920114382
+    - name: Inclusions
+      avgiou: 0.7229090493007193
+    - name: Patches
+      avgiou: 0.8658688564551023
+    - name: Scratches
+      avgiou: 0.8072235111258415
+    - name: mIoU
+      avgiou: 0.7986671389605543
+  57:
+  - train_loss: 0.053380984413836687
+  58:
+  - train_loss: 0.052874960138329444
+  - test_loss: 0.05804960863398654
+  - test_ious:
+    - name: Background
+      avgiou: 0.9732226687889098
+    - name: Inclusions
+      avgiou: 0.7279649939739805
+    - name: Patches
+      avgiou: 0.8661442624644714
+    - name: Scratches
+      avgiou: 0.8063096538596617
+    - name: mIoU
+      avgiou: 0.8001396367660378
+  59:
+  - train_loss: 0.052453839286629646
+  60:
+  - train_loss: 0.051714748676334125
+  - test_loss: 0.05886693144483226
+  - test_ious:
+    - name: Background
+      avgiou: 0.9727584860833683
+    - name: Inclusions
+      avgiou: 0.7242793531755332
+    - name: Patches
+      avgiou: 0.8578110757646671
+    - name: Scratches
+      avgiou: 0.8012005426270744
+    - name: mIoU
+      avgiou: 0.7944303238557583
+  61:
+  - train_loss: 0.05253716850919383
+  62:
+  - train_loss: 0.051976950573069725
+  - test_loss: 0.059961628115602905
+  - test_ious:
+    - name: Background
+      avgiou: 0.9720793375326814
+    - name: Inclusions
+      avgiou: 0.7225920862311518
+    - name: Patches
+      avgiou: 0.8593940198747316
+    - name: Scratches
+      avgiou: 0.8094352248520319
+    - name: mIoU
+      avgiou: 0.7971404436526384
+  63:
+  - train_loss: 0.053218304046562755
+  64:
+  - train_loss: 0.05254704884386488
+  - test_loss: 0.057459518721415886
+  - test_ious:
+    - name: Background
+      avgiou: 0.9732993310270032
+    - name: Inclusions
+      avgiou: 0.7305596945181596
+    - name: Patches
+      avgiou: 0.8598850542282885
+    - name: Scratches
+      avgiou: 0.8058982420404729
+    - name: mIoU
+      avgiou: 0.7987809969289738
+  65:
+  - train_loss: 0.0547415121857609
+  66:
+  - train_loss: 0.052895736148847
+  - test_loss: 0.062244083271140144
+  - test_ious:
+    - name: Background
+      avgiou: 0.9708116028247863
+    - name: Inclusions
+      avgiou: 0.7308787049258629
+    - name: Patches
+      avgiou: 0.8296831617993001
+    - name: Scratches
+      avgiou: 0.812714685027076
+    - name: mIoU
+      avgiou: 0.7910921839174131
+  67:
+  - train_loss: 0.053045842064810646
+  68:
+  - train_loss: 0.050826821875359335
+  - test_loss: 0.05449458104336546
+  - test_ious:
+    - name: Background
+      avgiou: 0.9742816192115032
+    - name: Inclusions
+      avgiou: 0.739686485640375
+    - name: Patches
+      avgiou: 0.8732935947540696
+    - name: Scratches
+      avgiou: 0.8128156137451398
+    - name: mIoU
+      avgiou: 0.8085985647131948
+  69:
+  - train_loss: 0.05104285511853439
+  70:
+  - train_loss: 0.05008902081421445
+  - test_loss: 0.05519297452022632
+  - test_ious:
+    - name: Background
+      avgiou: 0.9742718027961387
+    - name: Inclusions
+      avgiou: 0.7431294370366489
+    - name: Patches
+      avgiou: 0.8684651478461308
+    - name: Scratches
+      avgiou: 0.8127798700816194
+    - name: mIoU
+      avgiou: 0.8081248183214664
+  71:
+  - train_loss: 0.050584162053252966
+  72:
+  - train_loss: 0.05077914867017952
+  - test_loss: 0.05567292985284612
+  - test_ious:
+    - name: Background
+      avgiou: 0.9735736844275009
+    - name: Inclusions
+      avgiou: 0.7408640330650156
+    - name: Patches
+      avgiou: 0.869363577488676
+    - name: Scratches
+      avgiou: 0.8119965587776872
+    - name: mIoU
+      avgiou: 0.807408056443793
+  73:
+  - train_loss: 0.05110548789213811
+  74:
+  - train_loss: 0.05144955098096815
+  - test_loss: 0.05488525138547023
+  - test_ious:
+    - name: Background
+      avgiou: 0.9743679818341666
+    - name: Inclusions
+      avgiou: 0.7371500893076401
+    - name: Patches
+      avgiou: 0.8714205301824218
+    - name: Scratches
+      avgiou: 0.812262375967086
+    - name: mIoU
+      avgiou: 0.8069443318190492
+  75:
+  - train_loss: 0.049974160002810616
+  76:
+  - train_loss: 0.0495391351037792
+  - test_loss: 0.05440642108165082
+  - test_ious:
+    - name: Background
+      avgiou: 0.9745744482280813
+    - name: Inclusions
+      avgiou: 0.7387464284422584
+    - name: Patches
+      avgiou: 0.8743845330375052
+    - name: Scratches
+      avgiou: 0.8168328058291675
+    - name: mIoU
+      avgiou: 0.8099879224363103
+  77:
+  - train_loss: 0.051094348076730974
+  78:
+  - train_loss: 0.049893288673566925
+  - test_loss: 0.05414283522182987
+  - test_ious:
+    - name: Background
+      avgiou: 0.9748876256762
+    - name: Inclusions
+      avgiou: 0.7383857661499575
+    - name: Patches
+      avgiou: 0.8727960785690422
+    - name: Scratches
+      avgiou: 0.8197637379285697
+    - name: mIoU
+      avgiou: 0.8103151942158565
+  79:
+  - train_loss: 0.049413055248026354
+  80:
+  - train_loss: 0.04977634083479644
+  - test_loss: 0.055009352575455396
+  - test_ious:
+    - name: Background
+      avgiou: 0.9742883795687054
+    - name: Inclusions
+      avgiou: 0.7389471412897224
+    - name: Patches
+      avgiou: 0.8703827419058185
+    - name: Scratches
+      avgiou: 0.817714412409055
+    - name: mIoU
+      avgiou: 0.8090147652015319
+  81:
+  - train_loss: 0.04924077693639058
+  82:
+  - train_loss: 0.05119255231693388
+  - test_loss: 0.05526637991979009
+  - test_ious:
+    - name: Background
+      avgiou: 0.9740898041220863
+    - name: Inclusions
+      avgiou: 0.7389389426162843
+    - name: Patches
+      avgiou: 0.8681734221235253
+    - name: Scratches
+      avgiou: 0.812444077836761
+    - name: mIoU
+      avgiou: 0.8065188141921903
+  83:
+  - train_loss: 0.05038910838110105
+  84:
+  - train_loss: 0.04803391725623182
+  - test_loss: 0.055060369867299286
+  - test_ious:
+    - name: Background
+      avgiou: 0.9743183528767122
+    - name: Inclusions
+      avgiou: 0.7165171498191593
+    - name: Patches
+      avgiou: 0.8719020953186867
+    - name: Scratches
+      avgiou: 0.8117231864292972
+    - name: mIoU
+      avgiou: 0.8000474771890477
+  85:
+  - train_loss: 0.048359659833035314
+  86:
+  - train_loss: 0.04798547444599016
+  - test_loss: 0.05316819893639712
+  - test_ious:
+    - name: Background
+      avgiou: 0.9749973714420375
+    - name: Inclusions
+      avgiou: 0.7500159517864972
+    - name: Patches
+      avgiou: 0.8729228654813208
+    - name: Scratches
+      avgiou: 0.8234107241306747
+    - name: mIoU
+      avgiou: 0.815449847132831
+  87:
+  - train_loss: 0.0489990654002343
+  88:
+  - train_loss: 0.05087527612756407
+  - test_loss: 0.05892929260042452
+  - test_ious:
+    - name: Background
+      avgiou: 0.9729946076849166
+    - name: Inclusions
+      avgiou: 0.7416254200453792
+    - name: Patches
+      avgiou: 0.8450600243949412
+    - name: Scratches
+      avgiou: 0.818508907093199
+    - name: mIoU
+      avgiou: 0.8017314505111731
+  89:
+  - train_loss: 0.051644607114472565
+  90:
+  - train_loss: 0.049626366834023175
+  - test_loss: 0.052903599158993786
+  - test_ious:
+    - name: Background
+      avgiou: 0.9752499268996998
+    - name: Inclusions
+      avgiou: 0.7391803177644676
+    - name: Patches
+      avgiou: 0.8769304225535021
+    - name: Scratches
+      avgiou: 0.8205590727801952
+    - name: mIoU
+      avgiou: 0.8122232710327216
+  91:
+  - train_loss: 0.04778379534504243
+  92:
+  - train_loss: 0.04774597819362367
+  - test_loss: 0.05226578272524334
+  - test_ious:
+    - name: Background
+      avgiou: 0.97563891207356
+    - name: Inclusions
+      avgiou: 0.7443324208659444
+    - name: Patches
+      avgiou: 0.8769105295517542
+    - name: Scratches
+      avgiou: 0.8232575199602218
+    - name: mIoU
+      avgiou: 0.8148334901259734
+  93:
+  - train_loss: 0.04741426989702242
+  94:
+  - train_loss: 0.04845434753224252
+  - test_loss: 0.05421263326314234
+  - test_ious:
+    - name: Background
+      avgiou: 0.9746683648227208
+    - name: Inclusions
+      avgiou: 0.7372461034741736
+    - name: Patches
+      avgiou: 0.8689898374660759
+    - name: Scratches
+      avgiou: 0.8236924977628057
+    - name: mIoU
+      avgiou: 0.8099761462343519
+  95:
+  - train_loss: 0.048861399425991936
+  96:
+  - train_loss: 0.04660106137660999
+  - test_loss: 0.051887421682476995
+  - test_ious:
+    - name: Background
+      avgiou: 0.9756992494363541
+    - name: Inclusions
+      avgiou: 0.7520733267436494
+    - name: Patches
+      avgiou: 0.8790637119722255
+    - name: Scratches
+      avgiou: 0.8208401296335539
+    - name: mIoU
+      avgiou: 0.817325722783143
+  97:
+  - train_loss: 0.045948636585048275
+  98:
+  - train_loss: 0.04664258978196552
+  - test_loss: 0.05212931545185191
+  - test_ious:
+    - name: Background
+      avgiou: 0.9755073083448305
+    - name: Inclusions
+      avgiou: 0.7523237356376213
+    - name: Patches
+      avgiou: 0.877237544602283
+    - name: Scratches
+      avgiou: 0.8187626910556322
+    - name: mIoU
+      avgiou: 0.8161079904318456
+  99:
+  - train_loss: 0.04688794312200375
+  100:
+  - train_loss: 0.0471531128776925
+  - test_loss: 0.053977194871930846
+  - test_ious:
+    - name: Background
+      avgiou: 0.9748500082533509
+    - name: Inclusions
+      avgiou: 0.7480785500712037
+    - name: Patches
+      avgiou: 0.8697743846882108
+    - name: Scratches
+      avgiou: 0.8230726870133508
+    - name: mIoU
+      avgiou: 0.8136418739242551
+  101:
+  - train_loss: 0.04713975352102092
+  102:
+  - train_loss: 0.046252596591200165
+  - test_loss: 0.05244446522777989
+  - test_ious:
+    - name: Background
+      avgiou: 0.9750049319591287
+    - name: Inclusions
+      avgiou: 0.7509163684057965
+    - name: Patches
+      avgiou: 0.8733402463096563
+    - name: Scratches
+      avgiou: 0.8275658325943632
+    - name: mIoU
+      avgiou: 0.8172741491032719
+  103:
+  - train_loss: 0.04727607326848166
+  104:
+  - train_loss: 0.046773663788501695
+  - test_loss: 0.05264661234936544
+  - test_ious:
+    - name: Background
+      avgiou: 0.9753848337737863
+    - name: Inclusions
+      avgiou: 0.7409812638412567
+    - name: Patches
+      avgiou: 0.8763960434549828
+    - name: Scratches
+      avgiou: 0.8197369466935811
+    - name: mIoU
+      avgiou: 0.8123714179966068
+  105:
+  - train_loss: 0.04653188586235044
+  106:
+  - train_loss: 0.046422481204250035
+  - test_loss: 0.0511367837055808
+  - test_ious:
+    - name: Background
+      avgiou: 0.9759868270102459
+    - name: Inclusions
+      avgiou: 0.7496900154065432
+    - name: Patches
+      avgiou: 0.8832592915003852
+    - name: Scratches
+      avgiou: 0.8276858571385669
+    - name: mIoU
+      avgiou: 0.8202117213484984
+  107:
+  - train_loss: 0.04596655982147369
+  108:
+  - train_loss: 0.04542239648955208
+  - test_loss: 0.0521219169188823
+  - test_ious:
+    - name: Background
+      avgiou: 0.9754150576448698
+    - name: Inclusions
+      avgiou: 0.7478946263643996
+    - name: Patches
+      avgiou: 0.8733813029314931
+    - name: Scratches
+      avgiou: 0.82766966101993
+    - name: mIoU
+      avgiou: 0.8163151967719409
+  109:
+  - train_loss: 0.04623386909120847
+  110:
+  - train_loss: 0.04642975436789649
+  - test_loss: 0.052549346687183494
+  - test_ious:
+    - name: Background
+      avgiou: 0.975301499654007
+    - name: Inclusions
+      avgiou: 0.7435180770944533
+    - name: Patches
+      avgiou: 0.8729457719735318
+    - name: Scratches
+      avgiou: 0.8287568926073473
+    - name: mIoU
+      avgiou: 0.8150735805584443
+  111:
+  - train_loss: 0.04587757886786544
+  112:
+  - train_loss: 0.045533364106501856
+  - test_loss: 0.05109305317025809
+  - test_ious:
+    - name: Background
+      avgiou: 0.9758779068929068
+    - name: Inclusions
+      avgiou: 0.763066140624319
+    - name: Patches
+      avgiou: 0.8779800913614031
+    - name: Scratches
+      avgiou: 0.8230805941836278
+    - name: mIoU
+      avgiou: 0.8213756087231165
+  113:
+  - train_loss: 0.04605747945606707
+  114:
+  - train_loss: 0.0458495996759406
+  - test_loss: 0.054963759785251955
+  - test_ious:
+    - name: Background
+      avgiou: 0.9746510730967415
+    - name: Inclusions
+      avgiou: 0.7419631224985622
+    - name: Patches
+      avgiou: 0.8640084699148196
+    - name: Scratches
+      avgiou: 0.8258105493674782
+    - name: mIoU
+      avgiou: 0.8105940472602867
+  115:
+  - train_loss: 0.046933853533118956
+  116:
+  - train_loss: 0.045447168073483875
+  - test_loss: 0.05119256769262609
+  - test_ious:
+    - name: Background
+      avgiou: 0.9757576850597751
+    - name: Inclusions
+      avgiou: 0.7536311174555661
+    - name: Patches
+      avgiou: 0.8780165236674224
+    - name: Scratches
+      avgiou: 0.8256625593722035
+    - name: mIoU
+      avgiou: 0.819103400165064
+  117:
+  - train_loss: 0.04548406314903072
+  118:
+  - train_loss: 0.0459487931802869
+  - test_loss: 0.050248175770753904
+  - test_ious:
+    - name: Background
+      avgiou: 0.9763314502999282
+    - name: Inclusions
+      avgiou: 0.7560450709905913
+    - name: Patches
+      avgiou: 0.8798933147408815
+    - name: Scratches
+      avgiou: 0.8299862255327736
+    - name: mIoU
+      avgiou: 0.8219748704214155
+  119:
+  - train_loss: 0.04533590615860054
+  120:
+  - train_loss: 0.04471834522805047
+  - test_loss: 0.05150787070216167
+  - test_ious:
+    - name: Background
+      avgiou: 0.975999272345842
+    - name: Inclusions
+      avgiou: 0.7465548335878917
+    - name: Patches
+      avgiou: 0.8795987715341881
+    - name: Scratches
+      avgiou: 0.8207933518071833
+    - name: mIoU
+      avgiou: 0.8156489856430876
+test_ious:
+- value:
+  - name: Background
+    avgiou: 0.9316192389097127
+  - name: Inclusions
+    avgiou: 0.025550020260768
+  - name: Patches
+    avgiou: 0.718720663520753
+  - name: Scratches
+    avgiou: 0.37896904274079285
+  - name: mIoU
+    avgiou: 0.37441324217410465
+  epoch: 2
+- value:
+  - name: Background
+    avgiou: 0.9504009372697633
+  - name: Inclusions
+    avgiou: 0.43714304918486896
+  - name: Patches
+    avgiou: 0.7798957108732921
+  - name: Scratches
+    avgiou: 0.6764083671799738
+  - name: mIoU
+    avgiou: 0.6311490424127116
+  epoch: 4
+- value:
+  - name: Background
+    avgiou: 0.9529938819938435
+  - name: Inclusions
+    avgiou: 0.44124857219628
+  - name: Patches
+    avgiou: 0.7498690990397452
+  - name: Scratches
+    avgiou: 0.7087980161316925
+  - name: mIoU
+    avgiou: 0.6333052291225726
+  epoch: 6
+- value:
+  - name: Background
+    avgiou: 0.9584404014794303
+  - name: Inclusions
+    avgiou: 0.4623821042586716
+  - name: Patches
+    avgiou: 0.8127655792157118
+  - name: Scratches
+    avgiou: 0.7472752694576889
+  - name: mIoU
+    avgiou: 0.6741409843106907
+  epoch: 8
+- value:
+  - name: Background
+    avgiou: 0.9612482458923516
+  - name: Inclusions
+    avgiou: 0.5873776088105145
+  - name: Patches
+    avgiou: 0.7986310675154017
+  - name: Scratches
+    avgiou: 0.7446463734821136
+  - name: mIoU
+    avgiou: 0.7102183499360099
+  epoch: 10
+- value:
+  - name: Background
+    avgiou: 0.9630579992452355
+  - name: Inclusions
+    avgiou: 0.5990244822696762
+  - name: Patches
+    avgiou: 0.8265186101428089
+  - name: Scratches
+    avgiou: 0.7529917528197544
+  - name: mIoU
+    avgiou: 0.7261782817440797
+  epoch: 12
+- value:
+  - name: Background
+    avgiou: 0.9618375559452871
+  - name: Inclusions
+    avgiou: 0.6176810110422124
+  - name: Patches
+    avgiou: 0.8133610141758735
+  - name: Scratches
+    avgiou: 0.7514233701668408
+  - name: mIoU
+    avgiou: 0.7274884651283089
+  epoch: 14
+- value:
+  - name: Background
+    avgiou: 0.965073567296624
+  - name: Inclusions
+    avgiou: 0.6429101606603719
+  - name: Patches
+    avgiou: 0.8141672336993845
+  - name: Scratches
+    avgiou: 0.7635001091311601
+  - name: mIoU
+    avgiou: 0.7401925011636389
+  epoch: 16
+- value:
+  - name: Background
+    avgiou: 0.9669502637380895
+  - name: Inclusions
+    avgiou: 0.6539949756740081
+  - name: Patches
+    avgiou: 0.8423872088929505
+  - name: Scratches
+    avgiou: 0.7731486734847273
+  - name: mIoU
+    avgiou: 0.7565102860172287
+  epoch: 18
+- value:
+  - name: Background
+    avgiou: 0.9673625286964836
+  - name: Inclusions
+    avgiou: 0.6502566031652202
+  - name: Patches
+    avgiou: 0.8326123830761538
+  - name: Scratches
+    avgiou: 0.780990745327437
+  - name: mIoU
+    avgiou: 0.754619910522937
+  epoch: 20
+- value:
+  - name: Background
+    avgiou: 0.9682528448762397
+  - name: Inclusions
+    avgiou: 0.6645638685614911
+  - name: Patches
+    avgiou: 0.8441033667043878
+  - name: Scratches
+    avgiou: 0.7804932599042678
+  - name: mIoU
+    avgiou: 0.7630534983900489
+  epoch: 22
+- value:
+  - name: Background
+    avgiou: 0.9616494163903204
+  - name: Inclusions
+    avgiou: 0.6453509428882477
+  - name: Patches
+    avgiou: 0.759494010495398
+  - name: Scratches
+    avgiou: 0.7717371901377645
+  - name: mIoU
+    avgiou: 0.7255273811738033
+  epoch: 24
+- value:
+  - name: Background
+    avgiou: 0.9691409975105949
+  - name: Inclusions
+    avgiou: 0.670165579677144
+  - name: Patches
+    avgiou: 0.8504057456968692
+  - name: Scratches
+    avgiou: 0.7786534804853664
+  - name: mIoU
+    avgiou: 0.7664082686197933
+  epoch: 26
+- value:
+  - name: Background
+    avgiou: 0.969338189664708
+  - name: Inclusions
+    avgiou: 0.6536329288632637
+  - name: Patches
+    avgiou: 0.8543710043108881
+  - name: Scratches
+    avgiou: 0.7947922822679665
+  - name: mIoU
+    avgiou: 0.767598738480706
+  epoch: 28
+- value:
+  - name: Background
+    avgiou: 0.9704212908722902
+  - name: Inclusions
+    avgiou: 0.7060947305080375
+  - name: Patches
+    avgiou: 0.8538883572225066
+  - name: Scratches
+    avgiou: 0.7953150879254465
+  - name: mIoU
+    avgiou: 0.7850993918853302
+  epoch: 30
+- value:
+  - name: Background
+    avgiou: 0.9700873909547475
+  - name: Inclusions
+    avgiou: 0.6908645813012613
+  - name: Patches
+    avgiou: 0.8439329242428527
+  - name: Scratches
+    avgiou: 0.7938826391474447
+  - name: mIoU
+    avgiou: 0.7762267148971862
+  epoch: 32
+- value:
+  - name: Background
+    avgiou: 0.9709093309780215
+  - name: Inclusions
+    avgiou: 0.7034443202790336
+  - name: Patches
+    avgiou: 0.8545116033201763
+  - name: Scratches
+    avgiou: 0.7953195899258283
+  - name: mIoU
+    avgiou: 0.7844251711750126
+  epoch: 34
+- value:
+  - name: Background
+    avgiou: 0.9712886138775447
+  - name: Inclusions
+    avgiou: 0.6966543061509097
+  - name: Patches
+    avgiou: 0.8555403936533754
+  - name: Scratches
+    avgiou: 0.7972912416363183
+  - name: mIoU
+    avgiou: 0.7831619804802011
+  epoch: 36
+- value:
+  - name: Background
+    avgiou: 0.9717015117100132
+  - name: Inclusions
+    avgiou: 0.6953371351895337
+  - name: Patches
+    avgiou: 0.8625201772830617
+  - name: Scratches
+    avgiou: 0.7930301023108736
+  - name: mIoU
+    avgiou: 0.7836291382611563
+  epoch: 38
+- value:
+  - name: Background
+    avgiou: 0.9716322227599973
+  - name: Inclusions
+    avgiou: 0.7048320979187
+  - name: Patches
+    avgiou: 0.8579578760741127
+  - name: Scratches
+    avgiou: 0.8025686225132208
+  - name: mIoU
+    avgiou: 0.7884528655020112
+  epoch: 40
+- value:
+  - name: Background
+    avgiou: 0.9714725677215507
+  - name: Inclusions
+    avgiou: 0.6946530884943211
+  - name: Patches
+    avgiou: 0.8552467963929758
+  - name: Scratches
+    avgiou: 0.7998957714374775
+  - name: mIoU
+    avgiou: 0.7832652187749248
+  epoch: 42
+- value:
+  - name: Background
+    avgiou: 0.971414837656874
+  - name: Inclusions
+    avgiou: 0.700251325134966
+  - name: Patches
+    avgiou: 0.8616983501993726
+  - name: Scratches
+    avgiou: 0.8002094934588814
+  - name: mIoU
+    avgiou: 0.78738638959774
+  epoch: 44
+- value:
+  - name: Background
+    avgiou: 0.9718691380777605
+  - name: Inclusions
+    avgiou: 0.7156235249104289
+  - name: Patches
+    avgiou: 0.8622563687952619
+  - name: Scratches
+    avgiou: 0.7930004945089918
+  - name: mIoU
+    avgiou: 0.7902934627382275
+  epoch: 46
+- value:
+  - name: Background
+    avgiou: 0.9727050630160414
+  - name: Inclusions
+    avgiou: 0.7077141226682636
+  - name: Patches
+    avgiou: 0.8598855428986675
+  - name: Scratches
+    avgiou: 0.8109493733298315
+  - name: mIoU
+    avgiou: 0.7928496796322543
+  epoch: 48
+- value:
+  - name: Background
+    avgiou: 0.9708398259108462
+  - name: Inclusions
+    avgiou: 0.7209964092254655
+  - name: Patches
+    avgiou: 0.8431264106665072
+  - name: Scratches
+    avgiou: 0.8054220560521317
+  - name: mIoU
+    avgiou: 0.7898482919813681
+  epoch: 50
+- value:
+  - name: Background
+    avgiou: 0.9730058648143726
+  - name: Inclusions
+    avgiou: 0.7249943293165141
+  - name: Patches
+    avgiou: 0.8648929748986963
+  - name: Scratches
+    avgiou: 0.8063074878466757
+  - name: mIoU
+    avgiou: 0.798731597353962
+  epoch: 52
+- value:
+  - name: Background
+    avgiou: 0.971266363389324
+  - name: Inclusions
+    avgiou: 0.6849830106138289
+  - name: Patches
+    avgiou: 0.8514374338112372
+  - name: Scratches
+    avgiou: 0.8080557613215034
+  - name: mIoU
+    avgiou: 0.7814920685821898
+  epoch: 54
+- value:
+  - name: Background
+    avgiou: 0.9725744920114382
+  - name: Inclusions
+    avgiou: 0.7229090493007193
+  - name: Patches
+    avgiou: 0.8658688564551023
+  - name: Scratches
+    avgiou: 0.8072235111258415
+  - name: mIoU
+    avgiou: 0.7986671389605543
+  epoch: 56
+- value:
+  - name: Background
+    avgiou: 0.9732226687889098
+  - name: Inclusions
+    avgiou: 0.7279649939739805
+  - name: Patches
+    avgiou: 0.8661442624644714
+  - name: Scratches
+    avgiou: 0.8063096538596617
+  - name: mIoU
+    avgiou: 0.8001396367660378
+  epoch: 58
+- value:
+  - name: Background
+    avgiou: 0.9727584860833683
+  - name: Inclusions
+    avgiou: 0.7242793531755332
+  - name: Patches
+    avgiou: 0.8578110757646671
+  - name: Scratches
+    avgiou: 0.8012005426270744
+  - name: mIoU
+    avgiou: 0.7944303238557583
+  epoch: 60
+- value:
+  - name: Background
+    avgiou: 0.9720793375326814
+  - name: Inclusions
+    avgiou: 0.7225920862311518
+  - name: Patches
+    avgiou: 0.8593940198747316
+  - name: Scratches
+    avgiou: 0.8094352248520319
+  - name: mIoU
+    avgiou: 0.7971404436526384
+  epoch: 62
+- value:
+  - name: Background
+    avgiou: 0.9732993310270032
+  - name: Inclusions
+    avgiou: 0.7305596945181596
+  - name: Patches
+    avgiou: 0.8598850542282885
+  - name: Scratches
+    avgiou: 0.8058982420404729
+  - name: mIoU
+    avgiou: 0.7987809969289738
+  epoch: 64
+- value:
+  - name: Background
+    avgiou: 0.9708116028247863
+  - name: Inclusions
+    avgiou: 0.7308787049258629
+  - name: Patches
+    avgiou: 0.8296831617993001
+  - name: Scratches
+    avgiou: 0.812714685027076
+  - name: mIoU
+    avgiou: 0.7910921839174131
+  epoch: 66
+- value:
+  - name: Background
+    avgiou: 0.9742816192115032
+  - name: Inclusions
+    avgiou: 0.739686485640375
+  - name: Patches
+    avgiou: 0.8732935947540696
+  - name: Scratches
+    avgiou: 0.8128156137451398
+  - name: mIoU
+    avgiou: 0.8085985647131948
+  epoch: 68
+- value:
+  - name: Background
+    avgiou: 0.9742718027961387
+  - name: Inclusions
+    avgiou: 0.7431294370366489
+  - name: Patches
+    avgiou: 0.8684651478461308
+  - name: Scratches
+    avgiou: 0.8127798700816194
+  - name: mIoU
+    avgiou: 0.8081248183214664
+  epoch: 70
+- value:
+  - name: Background
+    avgiou: 0.9735736844275009
+  - name: Inclusions
+    avgiou: 0.7408640330650156
+  - name: Patches
+    avgiou: 0.869363577488676
+  - name: Scratches
+    avgiou: 0.8119965587776872
+  - name: mIoU
+    avgiou: 0.807408056443793
+  epoch: 72
+- value:
+  - name: Background
+    avgiou: 0.9743679818341666
+  - name: Inclusions
+    avgiou: 0.7371500893076401
+  - name: Patches
+    avgiou: 0.8714205301824218
+  - name: Scratches
+    avgiou: 0.812262375967086
+  - name: mIoU
+    avgiou: 0.8069443318190492
+  epoch: 74
+- value:
+  - name: Background
+    avgiou: 0.9745744482280813
+  - name: Inclusions
+    avgiou: 0.7387464284422584
+  - name: Patches
+    avgiou: 0.8743845330375052
+  - name: Scratches
+    avgiou: 0.8168328058291675
+  - name: mIoU
+    avgiou: 0.8099879224363103
+  epoch: 76
+- value:
+  - name: Background
+    avgiou: 0.9748876256762
+  - name: Inclusions
+    avgiou: 0.7383857661499575
+  - name: Patches
+    avgiou: 0.8727960785690422
+  - name: Scratches
+    avgiou: 0.8197637379285697
+  - name: mIoU
+    avgiou: 0.8103151942158565
+  epoch: 78
+- value:
+  - name: Background
+    avgiou: 0.9742883795687054
+  - name: Inclusions
+    avgiou: 0.7389471412897224
+  - name: Patches
+    avgiou: 0.8703827419058185
+  - name: Scratches
+    avgiou: 0.817714412409055
+  - name: mIoU
+    avgiou: 0.8090147652015319
+  epoch: 80
+- value:
+  - name: Background
+    avgiou: 0.9740898041220863
+  - name: Inclusions
+    avgiou: 0.7389389426162843
+  - name: Patches
+    avgiou: 0.8681734221235253
+  - name: Scratches
+    avgiou: 0.812444077836761
+  - name: mIoU
+    avgiou: 0.8065188141921903
+  epoch: 82
+- value:
+  - name: Background
+    avgiou: 0.9743183528767122
+  - name: Inclusions
+    avgiou: 0.7165171498191593
+  - name: Patches
+    avgiou: 0.8719020953186867
+  - name: Scratches
+    avgiou: 0.8117231864292972
+  - name: mIoU
+    avgiou: 0.8000474771890477
+  epoch: 84
+- value:
+  - name: Background
+    avgiou: 0.9749973714420375
+  - name: Inclusions
+    avgiou: 0.7500159517864972
+  - name: Patches
+    avgiou: 0.8729228654813208
+  - name: Scratches
+    avgiou: 0.8234107241306747
+  - name: mIoU
+    avgiou: 0.815449847132831
+  epoch: 86
+- value:
+  - name: Background
+    avgiou: 0.9729946076849166
+  - name: Inclusions
+    avgiou: 0.7416254200453792
+  - name: Patches
+    avgiou: 0.8450600243949412
+  - name: Scratches
+    avgiou: 0.818508907093199
+  - name: mIoU
+    avgiou: 0.8017314505111731
+  epoch: 88
+- value:
+  - name: Background
+    avgiou: 0.9752499268996998
+  - name: Inclusions
+    avgiou: 0.7391803177644676
+  - name: Patches
+    avgiou: 0.8769304225535021
+  - name: Scratches
+    avgiou: 0.8205590727801952
+  - name: mIoU
+    avgiou: 0.8122232710327216
+  epoch: 90
+- value:
+  - name: Background
+    avgiou: 0.97563891207356
+  - name: Inclusions
+    avgiou: 0.7443324208659444
+  - name: Patches
+    avgiou: 0.8769105295517542
+  - name: Scratches
+    avgiou: 0.8232575199602218
+  - name: mIoU
+    avgiou: 0.8148334901259734
+  epoch: 92
+- value:
+  - name: Background
+    avgiou: 0.9746683648227208
+  - name: Inclusions
+    avgiou: 0.7372461034741736
+  - name: Patches
+    avgiou: 0.8689898374660759
+  - name: Scratches
+    avgiou: 0.8236924977628057
+  - name: mIoU
+    avgiou: 0.8099761462343519
+  epoch: 94
+- value:
+  - name: Background
+    avgiou: 0.9756992494363541
+  - name: Inclusions
+    avgiou: 0.7520733267436494
+  - name: Patches
+    avgiou: 0.8790637119722255
+  - name: Scratches
+    avgiou: 0.8208401296335539
+  - name: mIoU
+    avgiou: 0.817325722783143
+  epoch: 96
+- value:
+  - name: Background
+    avgiou: 0.9755073083448305
+  - name: Inclusions
+    avgiou: 0.7523237356376213
+  - name: Patches
+    avgiou: 0.877237544602283
+  - name: Scratches
+    avgiou: 0.8187626910556322
+  - name: mIoU
+    avgiou: 0.8161079904318456
+  epoch: 98
+- value:
+  - name: Background
+    avgiou: 0.9748500082533509
+  - name: Inclusions
+    avgiou: 0.7480785500712037
+  - name: Patches
+    avgiou: 0.8697743846882108
+  - name: Scratches
+    avgiou: 0.8230726870133508
+  - name: mIoU
+    avgiou: 0.8136418739242551
+  epoch: 100
+- value:
+  - name: Background
+    avgiou: 0.9750049319591287
+  - name: Inclusions
+    avgiou: 0.7509163684057965
+  - name: Patches
+    avgiou: 0.8733402463096563
+  - name: Scratches
+    avgiou: 0.8275658325943632
+  - name: mIoU
+    avgiou: 0.8172741491032719
+  epoch: 102
+- value:
+  - name: Background
+    avgiou: 0.9753848337737863
+  - name: Inclusions
+    avgiou: 0.7409812638412567
+  - name: Patches
+    avgiou: 0.8763960434549828
+  - name: Scratches
+    avgiou: 0.8197369466935811
+  - name: mIoU
+    avgiou: 0.8123714179966068
+  epoch: 104
+- value:
+  - name: Background
+    avgiou: 0.9759868270102459
+  - name: Inclusions
+    avgiou: 0.7496900154065432
+  - name: Patches
+    avgiou: 0.8832592915003852
+  - name: Scratches
+    avgiou: 0.8276858571385669
+  - name: mIoU
+    avgiou: 0.8202117213484984
+  epoch: 106
+- value:
+  - name: Background
+    avgiou: 0.9754150576448698
+  - name: Inclusions
+    avgiou: 0.7478946263643996
+  - name: Patches
+    avgiou: 0.8733813029314931
+  - name: Scratches
+    avgiou: 0.82766966101993
+  - name: mIoU
+    avgiou: 0.8163151967719409
+  epoch: 108
+- value:
+  - name: Background
+    avgiou: 0.975301499654007
+  - name: Inclusions
+    avgiou: 0.7435180770944533
+  - name: Patches
+    avgiou: 0.8729457719735318
+  - name: Scratches
+    avgiou: 0.8287568926073473
+  - name: mIoU
+    avgiou: 0.8150735805584443
+  epoch: 110
+- value:
+  - name: Background
+    avgiou: 0.9758779068929068
+  - name: Inclusions
+    avgiou: 0.763066140624319
+  - name: Patches
+    avgiou: 0.8779800913614031
+  - name: Scratches
+    avgiou: 0.8230805941836278
+  - name: mIoU
+    avgiou: 0.8213756087231165
+  epoch: 112
+- value:
+  - name: Background
+    avgiou: 0.9746510730967415
+  - name: Inclusions
+    avgiou: 0.7419631224985622
+  - name: Patches
+    avgiou: 0.8640084699148196
+  - name: Scratches
+    avgiou: 0.8258105493674782
+  - name: mIoU
+    avgiou: 0.8105940472602867
+  epoch: 114
+- value:
+  - name: Background
+    avgiou: 0.9757576850597751
+  - name: Inclusions
+    avgiou: 0.7536311174555661
+  - name: Patches
+    avgiou: 0.8780165236674224
+  - name: Scratches
+    avgiou: 0.8256625593722035
+  - name: mIoU
+    avgiou: 0.819103400165064
+  epoch: 116
+- value:
+  - name: Background
+    avgiou: 0.9763314502999282
+  - name: Inclusions
+    avgiou: 0.7560450709905913
+  - name: Patches
+    avgiou: 0.8798933147408815
+  - name: Scratches
+    avgiou: 0.8299862255327736
+  - name: mIoU
+    avgiou: 0.8219748704214155
+  epoch: 118
+- value:
+  - name: Background
+    avgiou: 0.975999272345842
+  - name: Inclusions
+    avgiou: 0.7465548335878917
+  - name: Patches
+    avgiou: 0.8795987715341881
+  - name: Scratches
+    avgiou: 0.8207933518071833
+  - name: mIoU
+    avgiou: 0.8156489856430876
+  epoch: 120
+test_loss:
+- value: 0.18290678503967467
+  epoch: 2
+- value: 0.12206308284685725
+  epoch: 4
+- value: 0.11291095241904259
+  epoch: 6
+- value: 0.09690078635300908
+  epoch: 8
+- value: 0.08966787154121059
+  epoch: 10
+- value: 0.08367313049911033
+  epoch: 12
+- value: 0.08616937029929388
+  epoch: 14
+- value: 0.07828687405479806
+  epoch: 16
+- value: 0.07314302617063125
+  epoch: 18
+- value: 0.07232164658960842
+  epoch: 20
+- value: 0.0695485402696899
+  epoch: 22
+- value: 0.08470266707951114
+  epoch: 24
+- value: 0.06718469996537481
+  epoch: 26
+- value: 0.06666141591433968
+  epoch: 28
+- value: 0.06376685996850331
+  epoch: 30
+- value: 0.065910782673884
+  epoch: 32
+- value: 0.06310666721491587
+  epoch: 34
+- value: 0.062135895377113705
+  epoch: 36
+- value: 0.06177124755368346
+  epoch: 38
+- value: 0.06149766971135423
+  epoch: 40
+- value: 0.06194975274127154
+  epoch: 42
+- value: 0.06146127088438897
+  epoch: 44
+- value: 0.06070082687018882
+  epoch: 46
+- value: 0.05903987411764406
+  epoch: 48
+- value: 0.06342679476808934
+  epoch: 50
+- value: 0.05782443991906586
+  epoch: 52
+- value: 0.061920352918761114
+  epoch: 54
+- value: 0.058467583801774754
+  epoch: 56
+- value: 0.05804960863398654
+  epoch: 58
+- value: 0.05886693144483226
+  epoch: 60
+- value: 0.059961628115602905
+  epoch: 62
+- value: 0.057459518721415886
+  epoch: 64
+- value: 0.062244083271140144
+  epoch: 66
+- value: 0.05449458104336546
+  epoch: 68
+- value: 0.05519297452022632
+  epoch: 70
+- value: 0.05567292985284612
+  epoch: 72
+- value: 0.05488525138547023
+  epoch: 74
+- value: 0.05440642108165082
+  epoch: 76
+- value: 0.05414283522182987
+  epoch: 78
+- value: 0.055009352575455396
+  epoch: 80
+- value: 0.05526637991979009
+  epoch: 82
+- value: 0.055060369867299286
+  epoch: 84
+- value: 0.05316819893639712
+  epoch: 86
+- value: 0.05892929260042452
+  epoch: 88
+- value: 0.052903599158993786
+  epoch: 90
+- value: 0.05226578272524334
+  epoch: 92
+- value: 0.05421263326314234
+  epoch: 94
+- value: 0.051887421682476995
+  epoch: 96
+- value: 0.05212931545185191
+  epoch: 98
+- value: 0.053977194871930846
+  epoch: 100
+- value: 0.05244446522777989
+  epoch: 102
+- value: 0.05264661234936544
+  epoch: 104
+- value: 0.0511367837055808
+  epoch: 106
+- value: 0.0521219169188823
+  epoch: 108
+- value: 0.052549346687183494
+  epoch: 110
+- value: 0.05109305317025809
+  epoch: 112
+- value: 0.054963759785251955
+  epoch: 114
+- value: 0.05119256769262609
+  epoch: 116
+- value: 0.050248175770753904
+  epoch: 118
+- value: 0.05150787070216167
+  epoch: 120
+train_loss:
+- value: 0.48645338229835006
+  epoch: 1
+- value: 0.21453994938305446
+  epoch: 2
+- value: 0.15450086710708483
+  epoch: 3
+- value: 0.13326664588281084
+  epoch: 4
+- value: 0.1167478315266115
+  epoch: 5
+- value: 0.10568575587655814
+  epoch: 6
+- value: 0.10046765101807457
+  epoch: 7
+- value: 0.09633353685161897
+  epoch: 8
+- value: 0.09249153813081129
+  epoch: 9
+- value: 0.08867733792534896
+  epoch: 10
+- value: 0.08342781889119319
+  epoch: 11
+- value: 0.08283499355560967
+  epoch: 12
+- value: 0.07973611388089402
+  epoch: 13
+- value: 0.0780434114858508
+  epoch: 14
+- value: 0.0771976826446397
+  epoch: 15
+- value: 0.07478514699531454
+  epoch: 16
+- value: 0.07389844820967742
+  epoch: 17
+- value: 0.07292407897434064
+  epoch: 18
+- value: 0.06927208436120835
+  epoch: 19
+- value: 0.069579906362508
+  epoch: 20
+- value: 0.06800273373456939
+  epoch: 21
+- value: 0.06687020949487173
+  epoch: 22
+- value: 0.06573605031839437
+  epoch: 23
+- value: 0.06816608112837585
+  epoch: 24
+- value: 0.06729594964001859
+  epoch: 25
+- value: 0.06604882229917813
+  epoch: 26
+- value: 0.06376097703884756
+  epoch: 27
+- value: 0.06302063413230437
+  epoch: 28
+- value: 0.06368558401507993
+  epoch: 29
+- value: 0.06370934438226478
+  epoch: 30
+- value: 0.06318250537983008
+  epoch: 31
+- value: 0.060768951462315667
+  epoch: 32
+- value: 0.0605370377057365
+  epoch: 33
+- value: 0.06083900927166854
+  epoch: 34
+- value: 0.06066579577912178
+  epoch: 35
+- value: 0.059255213277148354
+  epoch: 36
+- value: 0.06109812469886884
+  epoch: 37
+- value: 0.05961994101692522
+  epoch: 38
+- value: 0.059252884505050514
+  epoch: 39
+- value: 0.058314645064196424
+  epoch: 40
+- value: 0.057473032535719046
+  epoch: 41
+- value: 0.05879913915746979
+  epoch: 42
+- value: 0.056676864025316076
+  epoch: 43
+- value: 0.05667609614985331
+  epoch: 44
+- value: 0.056301615134413764
+  epoch: 45
+- value: 0.05775032691391452
+  epoch: 46
+- value: 0.05598117663924183
+  epoch: 47
+- value: 0.056117308791726814
+  epoch: 48
+- value: 0.05674839651744281
+  epoch: 49
+- value: 0.05619161489552685
+  epoch: 50
+- value: 0.05598585846434748
+  epoch: 51
+- value: 0.05547997461897987
+  epoch: 52
+- value: 0.05456150915207608
+  epoch: 53
+- value: 0.05511646644611443
+  epoch: 54
+- value: 0.055816123328570805
+  epoch: 55
+- value: 0.05445565595956786
+  epoch: 56
+- value: 0.053380984413836687
+  epoch: 57
+- value: 0.052874960138329444
+  epoch: 58
+- value: 0.052453839286629646
+  epoch: 59
+- value: 0.051714748676334125
+  epoch: 60
+- value: 0.05253716850919383
+  epoch: 61
+- value: 0.051976950573069725
+  epoch: 62
+- value: 0.053218304046562755
+  epoch: 63
+- value: 0.05254704884386488
+  epoch: 64
+- value: 0.0547415121857609
+  epoch: 65
+- value: 0.052895736148847
+  epoch: 66
+- value: 0.053045842064810646
+  epoch: 67
+- value: 0.050826821875359335
+  epoch: 68
+- value: 0.05104285511853439
+  epoch: 69
+- value: 0.05008902081421445
+  epoch: 70
+- value: 0.050584162053252966
+  epoch: 71
+- value: 0.05077914867017952
+  epoch: 72
+- value: 0.05110548789213811
+  epoch: 73
+- value: 0.05144955098096815
+  epoch: 74
+- value: 0.049974160002810616
+  epoch: 75
+- value: 0.0495391351037792
+  epoch: 76
+- value: 0.051094348076730974
+  epoch: 77
+- value: 0.049893288673566925
+  epoch: 78
+- value: 0.049413055248026354
+  epoch: 79
+- value: 0.04977634083479644
+  epoch: 80
+- value: 0.04924077693639058
+  epoch: 81
+- value: 0.05119255231693388
+  epoch: 82
+- value: 0.05038910838110105
+  epoch: 83
+- value: 0.04803391725623182
+  epoch: 84
+- value: 0.048359659833035314
+  epoch: 85
+- value: 0.04798547444599016
+  epoch: 86
+- value: 0.0489990654002343
+  epoch: 87
+- value: 0.05087527612756407
+  epoch: 88
+- value: 0.051644607114472565
+  epoch: 89
+- value: 0.049626366834023175
+  epoch: 90
+- value: 0.04778379534504243
+  epoch: 91
+- value: 0.04774597819362367
+  epoch: 92
+- value: 0.04741426989702242
+  epoch: 93
+- value: 0.04845434753224252
+  epoch: 94
+- value: 0.048861399425991936
+  epoch: 95
+- value: 0.04660106137660999
+  epoch: 96
+- value: 0.045948636585048275
+  epoch: 97
+- value: 0.04664258978196552
+  epoch: 98
+- value: 0.04688794312200375
+  epoch: 99
+- value: 0.0471531128776925
+  epoch: 100
+- value: 0.04713975352102092
+  epoch: 101
+- value: 0.046252596591200165
+  epoch: 102
+- value: 0.04727607326848166
+  epoch: 103
+- value: 0.046773663788501695
+  epoch: 104
+- value: 0.04653188586235044
+  epoch: 105
+- value: 0.046422481204250035
+  epoch: 106
+- value: 0.04596655982147369
+  epoch: 107
+- value: 0.04542239648955208
+  epoch: 108
+- value: 0.04623386909120847
+  epoch: 109
+- value: 0.04642975436789649
+  epoch: 110
+- value: 0.04587757886786544
+  epoch: 111
+- value: 0.045533364106501856
+  epoch: 112
+- value: 0.04605747945606707
+  epoch: 113
+- value: 0.0458495996759406
+  epoch: 114
+- value: 0.046933853533118956
+  epoch: 115
+- value: 0.045447168073483875
+  epoch: 116
+- value: 0.04548406314903072
+  epoch: 117
+- value: 0.0459487931802869
+  epoch: 118
+- value: 0.04533590615860054
+  epoch: 119
+- value: 0.04471834522805047
+  epoch: 120
