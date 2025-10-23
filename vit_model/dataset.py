@@ -4,17 +4,27 @@ from torchvision.datasets import DatasetFolder
 from PIL import Image
 
 def get_cifar10_datasets(balance_dir='./ISIC_DATA/test', unbalance_dir='./ISIC_DATA/train'):
-    transform = transforms.Compose([
-        transforms.Resize((32, 32)),
+    transform_train = transforms.Compose([
+        transforms.Resize(224), # ViT-B/16 预训练的尺寸
+        transforms.RandomResizedCrop(224, scale=(0.8, 1.0)), # 相比 padding crop 更好
+        transforms.RandomHorizontalFlip(p=0.5),
+        transforms.RandAugment(num_ops=2, magnitude=9),
+        transforms.ColorJitter(brightness=0.2, contrast=0.2),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+    ])
+    
+    transform_test = transforms.Compose([
+        transforms.Resize((224, 224)),
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
     ])
 
     # 加载不平衡训练集
-    train_dataset = CIFAR10Local(root_dir=unbalance_dir, transform=transform)
+    train_dataset = CIFAR10Local(root_dir=unbalance_dir, transform=transform_train)
 
     # 加载平衡测试集
-    test_dataset = CIFAR10Local(root_dir=balance_dir, transform=transform)
+    test_dataset = CIFAR10Local(root_dir=balance_dir, transform=transform_test)
 
     return train_dataset, test_dataset
 
